@@ -33,7 +33,7 @@ module.exports = {
         hero: "url('../src/assets/img/hero_bg.png')",
       },
       dropShadow: {
-        primary: ' 0px 5px 5px rgba(75, 93, 104, 0.1)',
+        primary: '0px 5px 5px rgba(75, 93, 104, 0.1)',
       },
     },
   },
