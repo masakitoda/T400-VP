@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 // import components
 import Hero from './components/Hero';
 import About from './components/About';
+import Stats from './components/Stats';
 import Features from './components/Features';
 import Testimonials from './components/Testimonials';
 import CtaSection from './components/CtaSection';
@@ -22,6 +23,7 @@ const App = () => {
   return (
     <div className='overflow-hidden'>
       <Hero />
+      <Stats />
       <About />
       <Features />
       <Testimonials />

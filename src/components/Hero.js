@@ -4,13 +4,15 @@ import React from 'react';
 import { heroData } from '../data';
 
 // import components
+import Header from '../components/Header'; 
 
 
 const Hero = () => {
   // destructure hero
   const { title, subtitle, btnText, image } = heroData;
   return (
-    <section id="hero" className='lg:h-[900px] py-12'>
+    <section id="hero" className='bg-white lg:h-[900px] py-12'>
+      <Header />
       <div className='container mx-auto h-full relative'>
         <div className='flex flex-col xl:flex-row items-center h-full md:py-24'>
           {/* text */}
@@ -19,7 +21,7 @@ const Hero = () => {
             <h1
               className='h1 xl:max-w-[500px] mb-6 xl:mb-12'
               data-aos='fade-down'
-              data-aos-delay='2000'
+              data-aos-delay='1000'
             >
               {title}
             </h1>
@@ -33,7 +35,7 @@ const Hero = () => {
             </p>
             <button
               className='btn btn-primary mb-8 xl:mb-0'
-              data-aos='fade-down'
+              data-aos='fade-up'
               data-aos-delay='2000'
             >
               {btnText}

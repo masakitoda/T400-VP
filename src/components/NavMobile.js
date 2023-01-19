@@ -1,8 +1,21 @@
 import React from 'react'
 
-function NavMobile() {
+//import navigation data
+import {navigationData} from '../data';
+
+const NavMobile = () => {
   return (
-    <div>NavMobile</div>
+    <ul className='flex flex-col px-6 py-8 gap-y-4'>
+      {navigationData.map((item,index) =>{
+        return (
+          <li className='items-center' key={index}>
+            <a className='text-white' href='item.href'>
+              {item.name}
+            </a>
+          </li>
+        )
+      } )}
+    </ul>
   )
 }
 
