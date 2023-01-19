@@ -45,7 +45,7 @@ const Hero = () => {
           <div
             className='xl:absolute xl:-right-12 xl:bottom-16'
             data-aos='fade-up'
-            data-aos-delay='2000'
+            data-aos-delay='1000'
           >
             <img src={image} alt='ai' className='w-fit xl:ml-48'/>
           </div>
