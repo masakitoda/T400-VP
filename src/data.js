@@ -8,16 +8,17 @@ import shield from '../src/assets/Shield.svg';
 import star from '../src/assets/Star.svg';
 
 
+
 export const navigationData = [
     {
         name: 'T-400とは',
         href: '#',
-        id:"#about",
+        id:'about',
       },
       {
         name: '機能',
         href: '#',
-        id:"#feature",
+        id:'featuretop',
       },
       {
         name: '導入実績',

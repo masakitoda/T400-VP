@@ -9,7 +9,7 @@ const NavMobile = () => {
       {navigationData.map((item,index) =>{
         return (
           <li className='items-center' key={index}>
-            <a className='text-white' href='item.href'>
+            <a className='text-white' href={`#${item.id}`}>
               {item.name}
             </a>
           </li>
@@ -20,3 +20,4 @@ const NavMobile = () => {
 }
 
 export default NavMobile
+

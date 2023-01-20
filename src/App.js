@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from "./style";
 
 // import animate on scroll
 import Aos from 'aos';
@@ -8,7 +9,9 @@ import 'aos/dist/aos.css';
 import Hero from './components/Hero';
 import About from './components/About';
 import Stats from './components/Stats';
-import Features from './components/Features';
+import FeaturesTop from './components/FeaturesTop';
+import FeaturesMid from './components/FeaturesMid';
+import FeaturesBot from './components/FeaturesBot';
 import Testimonials from './components/Testimonials';
 import CtaSection from './components/CtaSection';
 import Footer from './components/Footer';
@@ -23,12 +26,34 @@ const App = () => {
   return (
     <div className='overflow-hidden'>
       <Hero />
+      <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
       <Stats />
+     </div>
+      </div>
       <About />
-      <Features />
+      <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+      <FeaturesTop />
+      </div>
+      </div>
+      <div className={`bg-primary1 ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+      <FeaturesMid />
+      </div>
+      </div>
+      <div className={`bg-primary1 ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+      <FeaturesBot />
+      </div>
+      </div>
       <Testimonials />
       <CtaSection />
-      <Contact />
+     <div className={`bg-primary1 ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Contact />
+      </div>
+    </div>
       <Footer />
     </div>
   );

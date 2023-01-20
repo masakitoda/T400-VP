@@ -31,8 +31,8 @@ const About = () => {
         data-aos-offset='350'
     >
         <div className='container mx-auto'>
-            <div className='bg-blue-900 rounded-[80px] min-h-[560px] px-12 p-12 flex flex-col text-center xl:flex-row xl:items-center 
-            xl:text-left xl:gap-x-[60px] xl:pb-0'>
+            <div className='bg-blue-900 rounded-[60px] min-h-[560px] px-12 p-12 flex flex-col text-center xl:flex-row xl:items-center 
+            xl:text-left xl:gap-x-[60px] xl:pb-0 '>
                 {/* image section*/}
                 <div className='flex-1' data-aos='zoom-in-left'>
                     <img src={image} alt="" />

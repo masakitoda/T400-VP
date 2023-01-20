@@ -10,7 +10,7 @@ const Nav = () => {
        {navigationData.map((item, index) => {
         return(
           <li key={index}>
-            <a href={item.href}>{item.name}</a>
+           <a href={`#${item.id}`}>{item.name}</a>
           </li>
         )
        })}
