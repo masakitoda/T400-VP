@@ -21,9 +21,8 @@ const Header = () => {
         <div className='flex items-center justify-between'>
           <div className='flex items-center gap-x-[120px]'>
             {/* logo */}
-            <a id='#'>
               <img src={Logo} alt='vp-logo' className='h-12'/>
-            </a>
+    
 
             {/* nav / initially hidden / show on large screens  */}
             <div className='hidden lg:flex'>
@@ -39,18 +38,17 @@ const Header = () => {
           >
             <NavMobile />
           </div>
-
-          <button className='btn btn-quaternary flex items-center gap-x-[20px] group'>
+          <a href='#contact'><button className='btn btn-quaternary flex items-center gap-x-[20px] group'>
             資料請求こちら
             <BsArrowRight className='text-2xl text-accent-primary group-hover:text-white transition' />
           </button>
-
+          </a>
           {/* nav trigger btn / only shows on mobile screens */}
           <div
             onClick={() => setNavMobile(!navMobile)}
             className='text-2xl text-primary cursor-pointer lg:hidden'
           >
-            <FaBars />
+          <FaBars />
           </div>
         </div>
       </div>

@@ -31,8 +31,12 @@ const App = () => {
       <Stats />
      </div>
       </div>
-      <About />
       <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+      <About />
+      </div>
+      </div>
+      <div className={`bg-slate-100 ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
       <FeaturesTop />
       </div>
@@ -42,19 +46,27 @@ const App = () => {
       <FeaturesMid />
       </div>
       </div>
-      <div className={`bg-primary1 ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`bg-slate-100 ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
       <FeaturesBot />
       </div>
       </div>
       <Testimonials />
-      <CtaSection />
+      <div className={`bg-primary1 ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <CtaSection />
+      </div>
+    </div>
      <div className={`bg-primary1 ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Contact />
       </div>
     </div>
-      <Footer />
+    <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Footer />
+      </div>
+    </div>
     </div>
   );
 };

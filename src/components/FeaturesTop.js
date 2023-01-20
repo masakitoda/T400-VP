@@ -23,8 +23,6 @@ const FeaturesTop = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5  text-black`}>
       100以上の言語・2000以上の専門分野に対応。ニューラルネットワークを活用したAI翻訳でプロ翻訳者に匹敵する精度を実現。分野を選択・検索することで一般的な翻訳ソフトには翻訳できない専門用語にも対応可能。
       </p>
-
-    
     </div>
   </section>
 );

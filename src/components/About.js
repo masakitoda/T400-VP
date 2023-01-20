@@ -11,10 +11,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
+      <h4 className="font-poppins font-semibold text-black text-[18px] leading-[23.4px] mb-1">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-white text-[16px] leading-[24px]">
+      <p className="font-poppins font-normal text-black text-[16px] leading-[24px]">
         {content}
       </p>
     </div>
@@ -31,15 +31,15 @@ const About = () => {
         data-aos-offset='350'
     >
         <div className='container mx-auto'>
-            <div className='bg-blue-900 rounded-[60px] min-h-[560px] px-12 p-12 flex flex-col text-center xl:flex-row xl:items-center 
+            <div className='bg-white rounded-[60px] min-h-[560px] px-12 p-12 flex flex-col text-center xl:flex-row xl:items-center 
             xl:text-left xl:gap-x-[60px] xl:pb-0 '>
                 {/* image section*/}
                 <div className='flex-1' data-aos='zoom-in-left'>
                     <img src={image} alt="" />
                 </div>
                 {/* text */}
-                <div className='flex-1 xl:pr-12'>
-                    <h2 className='h1 mb-10 text-white'
+                <div className='pt-10 flex-1 xl:pr-12'>
+                    <h2 className='h1 mb-10 text-black'
                         data-aos='fade-up'
                         data-aos-delay='300'
                     >
@@ -48,7 +48,7 @@ const About = () => {
                   <div 
                   data-aos='fade-up'
                   data-aos-delay='500'
-                  className={`${layout.sectionImg} flex-col`}>
+                  className={`${layout.sectionImg} flex-col text-black`}>
                     {features.map((feature, index) => (
                       <FeatureCard key={feature.id} {...feature} index={index} />
                     ))}

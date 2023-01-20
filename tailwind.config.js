@@ -4,6 +4,7 @@ module.exports = {
     fontFamily: {
       primary: 'Open Sans',
       secondary: 'Lato',
+      poppins: ["Poppins", "sans-serif"],
     },
     container: {
       padding: {
@@ -16,6 +17,7 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1170px',
+      
     },
     extend: {
       colors: {

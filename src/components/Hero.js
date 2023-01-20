@@ -33,6 +33,7 @@ const Hero = () => {
             >
               {subtitle}
             </p>
+           
             <button
               className='btn btn-primary mb-8 xl:mb-0'
               data-aos='fade-up'
@@ -45,7 +46,7 @@ const Hero = () => {
           <div
             className='xl:absolute xl:-right-12 xl:bottom-16'
             data-aos='fade-up'
-            data-aos-delay='900'
+            
           >
             <img src={image} alt='ai' className='w-fit xl:ml-48'/>
           </div>

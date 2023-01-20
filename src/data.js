@@ -6,7 +6,14 @@ import Ai from '../src/assets/VPAI.png';
 import send from '../src/assets/Send.svg';
 import shield from '../src/assets/Shield.svg';
 import star from '../src/assets/Star.svg';
-
+import airbnb from '../src/assets/airbnb.png';
+import binance from '../src/assets/binance.png';
+import coinbase from '../src/assets/coinbase.png';
+import dropbox from '../src/assets/dropbox.png';
+import facebook from '../src/assets/facebook.svg';
+import instagram from '../src/assets/instagram.svg';
+import linkedin from '../src/assets/linkedin.svg';
+import twitter from '../src/assets/twitter.svg';
 
 
 export const navigationData = [
@@ -28,7 +35,7 @@ export const navigationData = [
       {
         name: '資料請求',
         href: '#',
-        id:"#contact",
+        id:"contact",
       },
 ]
 
@@ -85,3 +92,100 @@ export const features = [{
 },
 ];
   
+export const footerLinks = [{
+  title: "Useful Links",
+  links: [{
+          name: "会社概要",
+          link: "https://www.valueplan.jp/company.html",
+      },
+      {
+          name: "事業内容",
+          link: "https://www.valueplan.jp/service.html",
+      },
+      {
+          name: "採用情報",
+          link: "https://www.valueplan.jp/saiyo.html",
+      },
+      {
+          name: "個人情報保護方針",
+          link: "https://www.valueplan.jp/privacypolicy.html",
+      },
+  ],
+},
+{
+  title: "Community",
+  links: [{
+          name: "Help Center",
+          link: "https://www.valueplan.jp/",
+      },
+      {
+          name: "Partners",
+          link: "https://www.valueplan.jp/",
+      },
+      {
+          name: "Suggestions",
+          link: "https://www.valueplan.jp/",
+      },
+      {
+          name: "Blog",
+          link: "https://www.valueplan.jp/",
+      },
+      {
+          name: "Newsletters",
+          link: "https://www.valueplan.jp/",
+      },
+  ],
+},
+{
+  title: "Partner",
+  links: [{
+          name: "Our Partner",
+          link: "https://www.valueplan.jp/",
+      },
+      {
+          name: "Become a Partner",
+          link: "https://www.valueplan.jp/",
+      },
+  ],
+},
+];
+
+export const socialMedia = [{
+  id: "social-media-1",
+  icon: instagram,
+  link: "https://www.instagram.com/",
+},
+{
+  id: "social-media-2",
+  icon: facebook,
+  link: "https://www.facebook.com/",
+},
+{
+  id: "social-media-3",
+  icon: twitter,
+  link: "https://www.twitter.com/",
+},
+{
+  id: "social-media-4",
+  icon: linkedin,
+  link: "https://www.linkedin.com/",
+},
+];
+
+export const clients = [{
+  id: "client-1",
+  logo: airbnb,
+},
+{
+  id: "client-2",
+  logo: binance,
+},
+{
+  id: "client-3",
+  logo: coinbase,
+},
+{
+  id: "client-4",
+  logo: dropbox,
+},
+];
